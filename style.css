@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; }
+body { max-width: 720px; margin: 0 auto; padding: 24px 20px 64px;
+       font: 15px/1.7 -apple-system, system-ui, "Apple SD Gothic Neo", sans-serif;
+       color: #1c1c1e; background: #fff; }
+@media (prefers-color-scheme: dark) { body { color: #e5e5ea; background: #151a26; } a { color: #8ab4ff; } }
+h1 { font-size: 24px; margin: 24px 0 4px; }
+h2 { font-size: 17px; margin: 28px 0 8px; }
+p, li { margin: 6px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 8px 0; }
+th, td { border: 1px solid rgba(128,128,128,.35); padding: 6px 8px; text-align: left; vertical-align: top; }
+.meta { color: #8e8e93; font-size: 13px; }
+.brand { color: #4a90d9; font-weight: 700; }
+nav a { margin-right: 12px; }
